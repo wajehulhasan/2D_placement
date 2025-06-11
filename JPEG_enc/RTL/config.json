@@ -1,0 +1,27 @@
+{
+  "DESIGN_NAME": "jpeg_top",
+  "VERILOG_FILES": [
+    "dir::cb_dctv.v",
+    "dir::cb_huff.v",
+    "dir::cb_quantizer.v",
+    "dir::cbd_q_h.v",
+    "dir::cr_dctv.v",
+    "dir::cr_huff.v",
+    "dir::cr_quantizer.v",
+    "dir::crd_q_h.v",
+    "dir::ff_checker.v",
+    "dir::fifo_outv.v",
+    "dir::ja_bits_out.v",
+    "dir::jpeg_top.v",
+    "dir::pre_fifo.v",
+    "dir::rgb2ycbcr.v",
+    "dir::sync_fifo_32.v",
+    "dir::sync_fifo_ff.v",
+    "dir::y_dctv.v",
+    "dir::y_huff.v",
+    "dir::y_quantizer.v",
+    "dir::yd_q_h.v"
+  ],
+  "CLOCK_PERIOD": 25,
+  "CLOCK_PORT": "clk"
+}
