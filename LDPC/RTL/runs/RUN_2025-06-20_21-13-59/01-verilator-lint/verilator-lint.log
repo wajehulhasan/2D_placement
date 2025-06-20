@@ -1,4 +1,0 @@
-%Error: /home/azureuser/my_designs/LDPC/RTL/ldpc_edgetable.v:10:16: syntax error, unexpected <=, expecting '='
-   10 | assign romdata <= romdata_int;
-      |                ^~
-%Error: Exiting due to 1 error(s)
