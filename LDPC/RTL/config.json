@@ -1,0 +1,17 @@
+{
+  "DESIGN_NAME": "ldp_top",
+  "VERILOG_FILES": [
+    "dir::ldpc_edgetable.v",
+    "dir::ldpc_iocontrol.v",
+    "dir::ldpc_ram_behav.v",
+    "dir::ldpc_top.v",
+    "dir::ldpc_vncluster.v",
+    "dir::ldpc_cn.v",
+    "dir::ldpc_muxreg.v",
+    "dir::ldpc_shuffle.v",
+    "dir::ldpc_vn.v"
+  ],
+  "CLOCK_PERIOD": 25,
+  "CLOCK_PORT": "clk"
+}
+

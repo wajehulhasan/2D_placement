@@ -1,0 +1,14 @@
+Subprocess had a non-zero exit.
+Last 10 line(s):
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /home/azureuser/my_designs/LDPC/RTL/ldpc_cn.v
+Parsing SystemVerilog input from `/home/azureuser/my_designs/LDPC/RTL/ldpc_cn.v' to AST representation.
+Warning: Encountered `translate_off' comment! Such legacy hot comments are supported by Yosys, but are not part of any formal language specification. Using a portable and standards-compliant construct such as `ifdef is recommended!
+Storing AST representation for module `$abstract\ldpc_cn'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /home/azureuser/my_designs/LDPC/RTL/ldpc_edgetable_bu.v
+/home/azureuser/my_designs/LDPC/RTL/ldpc_edgetable_bu.v:32: ERROR: Re-definition of module `$abstract\ldpc_edgetable'!
+
+Full log file: 'my_designs/LDPC/RTL/runs/RUN_2025-06-20_21-17-04/05-yosys-jsonheader/yosys-jsonheader.log'
